@@ -1,3 +1,3 @@
 #Landing page
 
-Página de prueba creada para repasar Sass, Compass y organizar las carpetas de código
+Simple CSS framework created to practice SASS and SMACSS. Inspired by Adi Purdila's screencasts (https://tutsplus.com/course/web-design-workflow-with-sass-and-compass/).
