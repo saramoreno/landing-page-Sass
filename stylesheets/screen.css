@@ -1,7 +1,11 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/*------------------------------------------*\
+    styles css
+
+    Simple CSS Framwork
+
+    This framework is inspired by Adi Purdila's framework (Tuts+)
+\*------------------------------------------*/
+/*------- Compass -------*/
 /* line 5, ../../../../../../Downloads/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -67,12 +71,52 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+/*------- Utilities -------*/
 /*------------------------------------------*\
-    Base styles
+    Settings
 \*------------------------------------------*/
+/*------- Typography -------*/
+/*------- Colors -------*/
+/*------- Positioning -------*/
 /*------------------------------------------*\
-    IE8 styles
+    Utilities
 \*------------------------------------------*/
+/* line 5, ../sass/utilities/_utilities.scss */
+.text-left {
+  text-align: left;
+}
+
+/* line 9, ../sass/utilities/_utilities.scss */
+.text-right {
+  text-align: right;
+}
+
+/* line 13, ../sass/utilities/_utilities.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 17, ../sass/utilities/_utilities.scss */
+.align-left {
+  float: left;
+}
+
+/* line 21, ../sass/utilities/_utilities.scss */
+.align-right {
+  float: right;
+}
+
+/* line 25, ../sass/utilities/_utilities.scss */
+.clearfix {
+  overflow: hidden;
+  *zoom: 1;
+}
+
+/*------- Bootstrap -------*/
+/*------------------------------------------*\
+    Bootstrap styles
+\*------------------------------------------*/
+/*------- Base -------*/
 /*------------------------------------------*\
     Normalize
 \*------------------------------------------*/
@@ -513,7 +557,15 @@ th {
 }
 
 /*------------------------------------------*\
-    Footer styles
+    Base styles
+\*------------------------------------------*/
+/*------------------------------------------*\
+    IE8 styles
+\*------------------------------------------*/
+/*------- Fonts -------*/
+/*------- Layout -------*/
+/*------------------------------------------*\
+    nav styles
 \*------------------------------------------*/
 /*------------------------------------------*\
   Header styles
@@ -522,26 +574,34 @@ th {
     Main styles
 \*------------------------------------------*/
 /*------------------------------------------*\
-    nav styles
+    Footer styles
 \*------------------------------------------*/
+/*------- Modules -------*/
 /*------------------------------------------*\
     Button styles
 \*------------------------------------------*/
 /*------------------------------------------*\
     Dividers styles
 \*------------------------------------------*/
-/*------------------------------------------*\
-    tables styles
-\*------------------------------------------*/
+/* line 5, ../sass/modules/_divider.scss */
+hr {
+  display: block;
+  height: 1px;
+  margin: 48px 0;
+  border: none;
+  background-color: #eeeeee;
+}
+
 /*------------------------------------------*\
     Form styles
 \*------------------------------------------*/
 /*------------------------------------------*\
+    tables styles
+\*------------------------------------------*/
+/*------------------------------------------*\
     Other styles
 \*------------------------------------------*/
+/*------- Theme -------*/
 /*------------------------------------------*\
-    Settings
-\*------------------------------------------*/
-/*------------------------------------------*\
-    Utilities 
+    Theme styles
 \*------------------------------------------*/
