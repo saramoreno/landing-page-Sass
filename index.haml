@@ -6,20 +6,49 @@
 
     %meta{content: "width=device-width", name: "viewport"}
 
-    %title Redradix
+    %title Landing Page
 
     /[if lt IE 9]
       %script{src:"assets/javascripts/dependencies/html5shiv.js"}
 
-    %link{href: "assets/stylesheets/screen.css", rel: 'stylesheet'}
+    %link{href: "stylesheets/screen.css", rel: 'stylesheet'}
 
   %body
     /HEADER
-    %header.l-header 
-
+    %header.l-header.l-beveled
+      .container
+        .row
+          .col-lg-3
+            %h1.logo
+              %a{href:"index.html"} Landing Page
+          .col-lg-9
+            %ul.align-right.l-list-divided
+              %li#contact-info
+                %p
+                  %small Questions?
+                %p Call 1-800-0000
+              %li
+                %button{type:"button", class:"btn.btn-primary"} Buy Now
     /MAIN
     %section
-      .l-main
+      .t-main-banner.t-margin#main-banner
+        .container
+          .row
+            .col-lg-5
+              %img{src:"images/iphone.png", alt: "iphone", class:"l-featured-image"}/ 
+            .col-lg-7
+              %h1 Product Name
+              %h3 This is a product tagline
+              %button{type:"button", class:"btn"} Buy Now
+              %button{type:"button", class:"btn"} Try it free
+
+              %hr/
+
+              %a{href:""}
+                %img{src:"images/video-1.png", alt:"video"}/ 
+              %a{href:""}
+                %img{src:"images/video-2.png", alt:"video"}/ 
+
 
     /FOOTER
     %footer.l-footer
