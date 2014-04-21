@@ -48,10 +48,85 @@
                 %img{src:"images/video-1.png", alt:"video"}/ 
               %a{href:""}
                 %img{src:"images/video-2.png", alt:"video"}/ 
+    /TESTIMONIALS
+    %section 
+      .container.t-margin
+        .row
+          .col-lg-4
+            %blockquote 
+              %p lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, similique, eaque, at praesentium ut nostrum excepturi quisquam minima quam numquam vel doloremque ipsum tempore consequuntur delectus minus molestiae magni alias!
+              %cite Sara Moreno, creadora de este tema
+          .col-lg-4
+            %blockquote 
+              %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, aspernatur, omnis at quo modi laudantium eius eveniet ratione commodi non vero itaque repudiandae asperiores ea beatae culpa nobis dolorum ducimus.
+              %cite Sara Moreno, creadora de este tema
+          .col-lg-4
+            %blockquote 
+              %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, aspernatur, omnis at quo modi laudantium eius eveniet ratione commodi non vero itaque repudiandae asperiores ea beatae culpa nobis dolorum ducimus.
+              %cite Sara Moreno, creadora de este tema
 
+    %hr/ 
+
+    //FEATURES
+
+    %section
+      .container.t-margin
+        %header.text-center.t-margin
+          %h2 For just 10$ you'll get an awesome product
+          %h3 Here is some of its main features
+        %ul.row.l-list-unstyled
+          %li.col-lg-6
+            .l-image-well.text-center
+              %img{src:"images/icons/icon-1.png", alt: "feature"}/ 
+            .l-text-well
+              %strong Title of feature
+              %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, perferendis, cumque, iusto, sit quae facere esse nostrum reiciendis sequi eaque hic rerum incidunt minus at saepe deleniti cupiditate? Libero, magnam.
+          %li.col-lg-6
+            .l-image-well.text-center
+              %img{src:"images/icons/icon-2.png", alt: "feature"}/ 
+            .l-text-well
+              %strong Title of feature
+              %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, perferendis, cumque, iusto, sit quae facere esse nostrum reiciendis sequi eaque hic rerum incidunt minus at saepe deleniti cupiditate? Libero, magnam.
+        %ul.row.l-list-unstyled
+          %li.col-lg-6
+            .l-image-well.text-center
+              %img{src:"images/icons/icon-3.png", alt: "feature"}/ 
+            .l-text-well
+              %strong Title of feature
+              %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, perferendis, cumque, iusto, sit quae facere esse nostrum reiciendis sequi eaque hic rerum incidunt minus at saepe deleniti cupiditate? Libero, magnam.
+          %li.col-lg-6
+            .l-image-well.text-center
+              %img{src:"images/icons/icon-4.png", alt: "feature"}/ 
+            .l-text-well
+              %strong Title of feature
+              %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, perferendis, cumque, iusto, sit quae facere esse nostrum reiciendis sequi eaque hic rerum incidunt minus at saepe deleniti cupiditate? Libero, magnam.
+
+    //CALL TO ACTION
+    %section 
+      .container.t-margin.l-callout.clearfix
+        .row.col-lg-8
+          %h2 Buy niw or try it free. It's super easy to start
+          %h3 No credit card required for free trial
+        .col-lg-4.text-right
+          %button{type:"button", class:"btn"} Buy Now
+          %button{type:"button", class:"btn"} Try it free
+
+    %hr/ 
 
     /FOOTER
-    %footer.l-footer
+    %footer.l-footer.container.t-margin.text-center
+      %ul.l-list-inline.t-margin
+        %li 
+          %a.social-icon{href:"#"} 
+            %i.fa.fa-twitter
+        %li 
+          %a.social-icon{href:"#"} 
+            %i.fa.fa-facebook
+        %li 
+          %a.social-icon{href:"#"} 
+            %i.fa.fa-envelope
+      %p &copy; Copyright 2014 Product Name
+
 
     /JQuery
     %script{src:"http://code.jquery.com/jquery-2.0.3.min.js"}
