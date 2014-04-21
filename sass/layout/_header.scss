@@ -24,6 +24,10 @@
     margin-left: 1rem;
 
     @include float-left;
+
+    &:first-child {
+      border-left:0;
+    }
   }
 }
 
