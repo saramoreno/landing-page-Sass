@@ -1,3 +1,65 @@
 /*------------------------------------------*\
     Theme styles
 \*------------------------------------------*/
+
+/*------- Typography -------*/
+
+body {
+  color: $color-text;
+  font: #{$base-font-size}/#{$baseline} $font-1;
+}
+
+a {
+  color: $color-link;
+
+  &:hover {
+    color: $color-link-hover;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1.3125rem;
+
+  color: $color-dark-text;
+  font-family: $font-2;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 3.375rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: $color-light-text;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+h5 {
+  font-family: $font-1;
+  font-size: .75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h6 {
+  font-family: $font-1;
+  font-size: .444rem;
+}
+
+blockquote cite {
+  color: $color-light-text;
+}
+
+/*------- Layout related -------*/
+
+

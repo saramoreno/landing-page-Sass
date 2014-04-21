@@ -7,7 +7,7 @@
 \*------------------------------------------*/
 /*------- Compass -------*/
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700");
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,700");
+@import url("http://fonts.googleapis.com/css?family=Dosis:400,700");
 /* line 5, ../../../../../../Downloads/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -4326,6 +4326,19 @@ blockquote cite:before {
 /*------------------------------------------*\
     Button styles
 \*------------------------------------------*/
+/* line 5, ../sass/modules/_btn.scss */
+.btn {
+  display: inline-block;
+  height: 3rem;
+  padding: 0 1rem;
+  outline: none;
+  border: 1px solid;
+  font-size: 1.125rem;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
 /*------------------------------------------*\
     Dividers styles
 \*------------------------------------------*/
@@ -4351,3 +4364,70 @@ hr {
 /*------------------------------------------*\
     Theme styles
 \*------------------------------------------*/
+/*------- Typography -------*/
+/* line 7, ../sass/theme/_theme.scss */
+body {
+  color: #454a4e;
+  font: 16px/24px "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+/* line 12, ../sass/theme/_theme.scss */
+a {
+  color: #f2604a;
+}
+/* line 15, ../sass/theme/_theme.scss */
+a:hover {
+  color: #191919;
+}
+
+/* line 20, ../sass/theme/_theme.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1.3125rem;
+  color: #191919;
+  font-family: "Dosis", Georgia, serif;
+  font-weight: normal;
+}
+
+/* line 28, ../sass/theme/_theme.scss */
+h1 {
+  font-size: 3.375rem;
+  font-weight: bold;
+}
+
+/* line 33, ../sass/theme/_theme.scss */
+h2 {
+  font-size: 2.25rem;
+}
+
+/* line 37, ../sass/theme/_theme.scss */
+h3 {
+  font-size: 1.5rem;
+  color: #8c9296;
+}
+
+/* line 42, ../sass/theme/_theme.scss */
+h4 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* line 47, ../sass/theme/_theme.scss */
+h5 {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: .75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* line 54, ../sass/theme/_theme.scss */
+h6 {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: .444rem;
+}
+
+/* line 59, ../sass/theme/_theme.scss */
+blockquote cite {
+  color: #8c9296;
+}
+
+/*------- Layout related -------*/
