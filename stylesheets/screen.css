@@ -2055,7 +2055,7 @@ body {
 
 /* line 9, ../sass/base/_base.scss */
 p {
-  margin-bottom: 24px;
+  margin-bottom: 21px;
 }
 
 /* line 13, ../sass/base/_base.scss */
@@ -2065,7 +2065,7 @@ blockquote {
 }
 /* line 17, ../sass/base/_base.scss */
 blockquote cite {
-  font-size: .75rem;
+  font-size: 1rem;
   font-style: normal;
 }
 /* line 21, ../sass/base/_base.scss */
@@ -4242,8 +4242,8 @@ blockquote cite:before {
 /* line 8, ../sass/layout/_header.scss */
 .l-header .logo {
   margin: 0;
-  font-size: 1.625rem;
-  line-height: 3em;
+  font-size: 2rem;
+  line-height: 2.5em;
 }
 /* line 13, ../sass/layout/_header.scss */
 .l-header .logo a {
@@ -4303,7 +4303,7 @@ blockquote cite:before {
 
 /* line 20, ../sass/layout/_main.scss */
 .l-text-well {
-  margin-left: 6rem;
+  margin-left: 8rem;
 }
 
 /* line 24, ../sass/layout/_main.scss */
@@ -4342,7 +4342,7 @@ blockquote cite:before {
 /* line 5, ../sass/modules/_btn.scss */
 .btn {
   display: inline-block;
-  height: 3rem;
+  height: 3.5rem;
   padding: 0 1rem;
   outline: none;
   border: 1px solid;
@@ -4359,7 +4359,7 @@ blockquote cite:before {
 hr {
   display: block;
   height: 1px;
-  margin: 48px 0;
+  margin: 42px 0;
   border: none;
   background-color: #eeeeee;
 }
@@ -4381,7 +4381,7 @@ hr {
 /* line 7, ../sass/theme/_theme.scss */
 body {
   color: #454a4e;
-  font: 16px/24px "Open Sans", Helvetica, Arial, sans-serif;
+  font: 14px/21px "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 /* line 12, ../sass/theme/_theme.scss */
@@ -4446,7 +4446,7 @@ blockquote cite {
 /*------- Layout related -------*/
 /* line 65, ../sass/theme/_theme.scss */
 .t-margin {
-  margin-bottom: 48px;
+  margin-bottom: 42px;
 }
 
 /*------- Header -------*/
@@ -4464,27 +4464,38 @@ blockquote cite {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
+/* line 83, ../sass/theme/_theme.scss */
+#contact-info p {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+/* line 88, ../sass/theme/_theme.scss */
+.l-list-divided {
+  margin-top: 0.625rem;
+}
+
 /*------- Main banner -------*/
-/* line 85, ../sass/theme/_theme.scss */
+/* line 93, ../sass/theme/_theme.scss */
 .t-main-banner {
   background-color: #55abc7;
   -moz-box-shadow: 0 -4px 0 0 rgba(0, 0, 0, 0.2) inset;
   -webkit-box-shadow: 0 -4px 0 0 rgba(0, 0, 0, 0.2) inset;
   box-shadow: 0 -4px 0 0 rgba(0, 0, 0, 0.2) inset;
 }
-/* line 90, ../sass/theme/_theme.scss */
+/* line 98, ../sass/theme/_theme.scss */
 .t-main-banner h1, .t-main-banner h3, .t-main-banner p {
   color: #fff;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
-/* line 96, ../sass/theme/_theme.scss */
+/* line 104, ../sass/theme/_theme.scss */
 .t-main-banner hr {
   width: 75%;
   background-color: rgba(255, 255, 255, 0.4);
 }
 
 /*------- Buttons -------*/
-/* line 104, ../sass/theme/_theme.scss */
+/* line 112, ../sass/theme/_theme.scss */
 .btn {
   background-color: #f8f8f8;
   color: #454a4e;
@@ -4493,12 +4504,12 @@ blockquote cite {
   -webkit-box-shadow: 0 -2px 0 0 #c5c5c5 inset;
   box-shadow: 0 -2px 0 0 #c5c5c5 inset;
 }
-/* line 113, ../sass/theme/_theme.scss */
+/* line 121, ../sass/theme/_theme.scss */
 .btn:hover {
   background-color: #ebebeb;
 }
 
-/* line 118, ../sass/theme/_theme.scss */
+/* line 126, ../sass/theme/_theme.scss */
 .btn-primary {
   background-color: #f2604a;
   color: #fff;
@@ -4507,12 +4518,12 @@ blockquote cite {
   -webkit-box-shadow: 0 -2px 0 0 #c8270e inset;
   box-shadow: 0 -2px 0 0 #c8270e inset;
 }
-/* line 127, ../sass/theme/_theme.scss */
+/* line 135, ../sass/theme/_theme.scss */
 .btn-primary:hover {
   background-color: #f04b32;
 }
 
-/* line 132, ../sass/theme/_theme.scss */
+/* line 140, ../sass/theme/_theme.scss */
 .btn-secondary {
   background-color: #43484b;
   color: #fff;
@@ -4521,42 +4532,48 @@ blockquote cite {
   -webkit-box-shadow: 0 -2px 0 0 #131415 inset;
   box-shadow: 0 -2px 0 0 #131415 inset;
 }
-/* line 141, ../sass/theme/_theme.scss */
+/* line 149, ../sass/theme/_theme.scss */
 .btn-secondary:hover {
   background-color: #373b3e;
 }
 
 /*------- Lists -------*/
-/* line 148, ../sass/theme/_theme.scss */
+/* line 156, ../sass/theme/_theme.scss */
 .l-image-well {
   background-color: #eeeeee;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
+  width: 6rem;
+  height: 6rem;
+}
+/* line 164, ../sass/theme/_theme.scss */
+.l-image-well img {
+  margin-top: .75rem;
 }
 
-/* line 154, ../sass/theme/_theme.scss */
+/* line 169, ../sass/theme/_theme.scss */
 .l-list-divided li {
   border-left: 1px solid #eeeeee;
 }
 
 /*------- Callout -------*/
-/* line 160, ../sass/theme/_theme.scss */
+/* line 175, ../sass/theme/_theme.scss */
 .t-callout {
   background-color: #2d3439;
 }
-/* line 163, ../sass/theme/_theme.scss */
+/* line 178, ../sass/theme/_theme.scss */
 .t-callout h2 {
   margin-top: 0;
   color: #fff;
 }
-/* line 169, ../sass/theme/_theme.scss */
+/* line 184, ../sass/theme/_theme.scss */
 .t-callout h3 {
   margin-top: 0;
 }
 
 /*------- Footer -------*/
-/* line 176, ../sass/theme/_theme.scss */
+/* line 191, ../sass/theme/_theme.scss */
 .social-icon {
   background-color: #eeeeee;
   color: #8c9296;

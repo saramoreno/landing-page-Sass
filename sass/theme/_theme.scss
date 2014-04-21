@@ -80,6 +80,14 @@ blockquote cite {
   font-family: $font-1;
 }
 
+#contact-info p{
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.l-list-divided {
+  margin-top: 0.625rem;
+}
 /*------- Main banner -------*/
 
 .t-main-banner {
@@ -149,6 +157,13 @@ blockquote cite {
   background-color: $color-hr;
 
   @include border-radius(3px);
+
+  width: 6rem;
+  height: 6rem;
+
+  img {
+    margin-top: .75rem;
+  }
 }
 
 .l-list-divided li {
