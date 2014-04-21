@@ -14,8 +14,9 @@
     %link{href: "stylesheets/screen.css", rel: 'stylesheet'}
 
   %body
+
     /HEADER
-    %header.l-header.l-beveled
+    %header.l-header.t-beveled
       .container
         .row
           .col-lg-3
@@ -28,7 +29,8 @@
                   %small Questions?
                 %p Call 1-800-0000
               %li
-                %button{type:"button", class:"btn.btn-primary"} Buy Now
+                %button.btn.btn-primary{type:"button"} Buy Now
+
     /MAIN
     %section
       .t-main-banner.t-margin#main-banner
@@ -39,8 +41,8 @@
             .col-lg-7
               %h1 Product Name
               %h3 This is a product tagline
-              %button{type:"button", class:"btn"} Buy Now
-              %button{type:"button", class:"btn"} Try it free
+              %button.btn.btn-secondary{type:"button"} Buy Now
+              %button.btn{type:"button"} Try it free
 
               %hr/
 
@@ -48,6 +50,7 @@
                 %img{src:"images/video-1.png", alt:"video"}/ 
               %a{href:""}
                 %img{src:"images/video-2.png", alt:"video"}/ 
+
     /TESTIMONIALS
     %section 
       .container.t-margin
@@ -55,7 +58,9 @@
           .col-lg-4
             %blockquote 
               %p lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, similique, eaque, at praesentium ut nostrum excepturi quisquam minima quam numquam vel doloremque ipsum tempore consequuntur delectus minus molestiae magni alias!
-              %cite Sara Moreno, creadora de este tema
+              %cite 
+                Sara Moreno
+                %a{href: "#"} Website Inc.
           .col-lg-4
             %blockquote 
               %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, aspernatur, omnis at quo modi laudantium eius eveniet ratione commodi non vero itaque repudiandae asperiores ea beatae culpa nobis dolorum ducimus.
@@ -104,12 +109,13 @@
     //CALL TO ACTION
     %section 
       .container.t-margin.l-callout.clearfix
-        .row.col-lg-8
-          %h2 Buy niw or try it free. It's super easy to start
-          %h3 No credit card required for free trial
-        .col-lg-4.text-right
-          %button{type:"button", class:"btn"} Buy Now
-          %button{type:"button", class:"btn"} Try it free
+        .row
+          .col-lg-8
+            %h2 Buy niw or try it free. It's super easy to start
+            %h3 No credit card required for free trial
+          .col-lg-4.text-right
+            %button.btn{type:"button"} Buy Now
+            %button.btn{type:"button"} Try it free
 
     %hr/ 
 
