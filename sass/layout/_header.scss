@@ -2,4 +2,43 @@
   Header styles
 \*------------------------------------------*/
 
-.l-header {}
+.l-header {
+  padding: 1.5rem 0;
+
+  .logo {
+    margin: 0;
+    font-size: 1.625rem;
+    line-height: 3em;
+
+    a {
+      text-decoration:none;
+    }
+  }
+}
+
+.l-list-divided {
+  margin: 0;
+
+  li {
+    padding-left: 1rem;
+    margin-left: 1rem;
+
+    @include float-left;
+  }
+}
+
+#contact-info {
+  margin: 0;
+
+  small {
+    text-transform: uppercase;
+
+    &:last-child {
+      font-weight: bold;
+    }
+  }
+}
+
+#main-banner {
+  padding: 3rem 0 0;
+}
